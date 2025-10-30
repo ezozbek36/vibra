@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:vibra/core/config/router/app_router.gr.dart';
-import 'package:vibra/features/home/domain/entities/album.dart';
+import 'package:vibra/shared/domain/entities/album.dart';
 
 class AlbumCard extends StatelessWidget {
   final Album album;

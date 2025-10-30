@@ -5,8 +5,8 @@ import 'package:vibra/core/errors/failure.dart';
 import 'package:vibra/features/home/data/datasources/remote/spotify_remote_data_source.dart';
 import 'package:vibra/features/home/data/mappers/album_mappr.dart';
 import 'package:vibra/features/home/data/models/album_model.dart';
-import 'package:vibra/features/home/domain/entities/album.dart';
 import 'package:vibra/features/home/domain/repositories/album_repository.dart';
+import 'package:vibra/shared/domain/entities/album.dart';
 
 @LazySingleton(as: AlbumRepository)
 class AlbumRepositoryImpl implements AlbumRepository {

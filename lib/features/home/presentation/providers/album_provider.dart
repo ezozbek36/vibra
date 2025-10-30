@@ -2,8 +2,8 @@ import 'package:fpdart/fpdart.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:vibra/core/config/di/injection.dart';
 import 'package:vibra/core/errors/failure.dart';
-import 'package:vibra/features/home/domain/entities/album.dart';
 import 'package:vibra/features/home/domain/usecases/get_new_albums_usecase.dart';
+import 'package:vibra/shared/domain/entities/album.dart';
 
 part 'album_provider.g.dart';
 

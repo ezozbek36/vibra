@@ -2,7 +2,7 @@ import 'package:auto_mappr_annotation/auto_mappr_annotation.dart';
 import 'package:injectable/injectable.dart';
 import 'package:vibra/features/home/data/mappers/album_mappr.auto_mappr.dart';
 import 'package:vibra/features/home/data/models/album_model.dart';
-import 'package:vibra/features/home/domain/entities/album.dart';
+import 'package:vibra/shared/domain/entities/album.dart';
 
 @LazySingleton()
 @AutoMappr([

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:vibra/features/home/domain/entities/album.dart';
 import 'package:vibra/features/home/presentation/widgets/album_card.dart';
+import 'package:vibra/shared/domain/entities/album.dart';
 
 class AlbumListView extends StatelessWidget {
   final List<Album> albums;
